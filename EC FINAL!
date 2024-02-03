@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electron Community</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        #server-info {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        #join-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #7289da;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="server-info">
+    <h1>Welcome to Electron Community</h1>
+    <p>Server Information:</p>
+    <ul>
+        <li>Server Name: Electron Community</li>
+        <li>Members: 42</li>
+        <li>Description: A community for making new firends, and bidding.</li>
+    </ul>
+    <button id="join-button" onclick="https://discord.gg/DYmj9eZtuH()">Join Server</button>
+</div>
+
+<script>
+    function joinServer() {
+        // Redirect to the Discord invite link
+        window.location.href = 'https://discord.gg/YOUR_INVITE_CODE';
+    }
+</script>
+
+</body>
+</html>
